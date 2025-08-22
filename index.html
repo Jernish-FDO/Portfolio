@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional portfolio of Flutter Developer & IoT Engineering Student - Building innovative mobile apps and smart automation solutions">
+    <meta name="keywords" content="Flutter Developer, IoT Engineer, Mobile Apps, Web Development, Portfolio">
+    <meta name="author" content="JERNISH">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="JERNISH - Flutter Developer & IoT Engineer">
+    <meta property="og:description" content="Professional portfolio showcasing Flutter apps, IoT projects, and engineering solutions">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourportfolio.com">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="JERNISH - Flutter Developer & IoT Engineer">
+    <meta name="twitter:description" content="Professional portfolio showcasing Flutter apps, IoT projects, and engineering solutions">
+    
+    <title>JERNISH - Flutter Developer & IoT Engineer</title>
+    
+    <!-- Preload critical resources -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Theme color for mobile browsers -->
+    <meta name="theme-color" content="#1a365d">
+</head>
+<body>
+    <!-- Loading Animation -->
+    <div id="loading-screen">
+        <div class="loading-content">
+            <div class="loading-logo">
+                <span class="code-bracket">&lt;</span>
+                <span class="loading-text">JERNISH</span>
+                <span class="code-bracket">/&gt;</span>
+            </div>
+            <div class="loading-progress"></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="code-bracket">&lt;</span>
+                <span>JERNISH</span>
+                <span class="code-bracket">/&gt;</span>
+            </div>
+            
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                <li class="nav-item">
+                    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </li>
+            </ul>
+            
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-image">
+                    <div class="image-frame">
+                        <img src="https://via.placeholder.com/300x300/1a365d/ffffff?text=JERNISH" alt="Professional headshot" class="profile-image">
+                        <div class="image-glow"></div>
+                    </div>
+                </div>
+                
+                <div class="hero-text">
+                    <div class="hero-greeting">
+                        <span class="greeting-text">Hi, I'm</span>
+                    </div>
+                    
+                    <h1 class="hero-title">
+                        <span class="typing-text" data-text="JERNISH"></span>
+                        <span class="cursor">|</span>
+                    </h1>
+                    
+                    <div class="hero-subtitle">
+                        <span class="role">Flutter Developer & IoT Engineering Student</span>
+                    </div>
+                    
+                    <p class="hero-description">
+                        Building innovative mobile applications and smart automation solutions 
+                        that bridge the gap between digital experiences and physical world connectivity.
+                    </p>
+                    
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">Projects</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">2+</span>
+                            <span class="stat-label">Years Learning</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">Dedicated</span>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">
+                            <span>Get In Touch</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="#projects" class="btn btn-secondary">
+                            <span>View My Work</span>
+                            <i class="fas fa-eye"></i>
+                        </a>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener" class="social-link">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/yourusername" target="_blank" rel="noopener" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://twitter.com/yourusername" target="_blank" rel="noopener" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="mailto:your.email@example.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="scroll-indicator">
+                <div class="scroll-arrow">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <p>Scroll to explore</p>
+            </div>
+        </div>
+        
+        <!-- Animated Background -->
+        <div class="hero-background">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Passionate about creating impactful digital solutions</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-intro">
+                        <p>
+                            I'm a dedicated Flutter Developer and Electronics & Communication Engineering student 
+                            with a passion for creating innovative mobile applications and IoT solutions. 
+                            Currently pursuing my degree while actively building real-world projects that 
+                            combine software development with hardware integration.
+                        </p>
+                        
+                        <p>
+                            My journey in technology began with a curiosity about how digital and physical 
+                            systems interact. This led me to specialize in mobile app development using 
+                            Flutter while simultaneously exploring IoT engineering to create smart, 
+                            connected solutions.
+                        </p>
+                        
+                        <p>
+                            During my internship at BSNL, I gained valuable experience in telecommunications 
+                            and network systems, which enhanced my understanding of connectivity protocols 
+                            essential for IoT applications.
+                        </p>
+                    </div>
+                    
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div>
+                                <h4>Education Focus</h4>
+                                <p>Electronics & Communication Engineering with emphasis on mobile and IoT development</p>
+                            </div>
+                        </div>
+                        
+                        <div class="highlight-item">
+                            <i class="fas fa-code"></i>
+                            <div>
+                                <h4>Development Passion</h4>
+                                <p>Building cross-platform mobile apps with Flutter and integrating IoT solutions</p>
+                            </div>
+                        </div>
+                        
+                        <div class="highlight-item">
+                            <i class="fas fa-lightbulb"></i>
+                            <div>
+                                <h4>Innovation Mindset</h4>
+                                <p>Constantly learning new technologies and applying them to solve real-world problems</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-visual">
+                    <div class="tech-stack-preview">
+                        <div class="tech-item">
+                            <i class="fab fa-flutter"></i>
+                            <span>Flutter</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fab fa-js"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-microchip"></i>
+                            <span>Arduino</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fab fa-firebase"></i>
+                            <span>Firebase</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Technical Skills</h2>
+                <p class="section-subtitle">Technologies and tools I work with</p>
+            </div>
+            
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h3>Mobile Development</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Flutter/Dart</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Firebase Integration</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">State Management</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-code"></i>
+                        <h3>Web Development</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">HTML/CSS</span>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="95"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">JavaScript</span>
+                                <span class="skill-percentage">88%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="88"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Responsive Design</span>
+                                <span class="skill-percentage">92%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="92"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-microchip"></i>
+                        <h3>IoT & Hardware</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Arduino Programming</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Sensor Integration</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Circuit Design</span>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-tools"></i>
+                        <h3>Tools & Others</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Git/GitHub</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">VS Code</span>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="95"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Linux/Command Line</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Showcase of my mobile apps, IoT solutions, and web development work</p>
+            </div>
+            
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="flutter">Flutter Apps</button>
+                <button class="filter-btn" data-filter="iot">IoT Solutions</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card" data-category="flutter">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250/3182ce/ffffff?text=Flutter+App" alt="E-Commerce Flutter App">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/yourusername" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">Flutter Mobile</div>
+                        <h3 class="project-title">E-Commerce Mobile App</h3>
+                        <p class="project-description">
+                            Full-featured e-commerce mobile application built with Flutter, featuring 
+                            product catalog, shopping cart, payment integration, and user authentication.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Flutter</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">Stripe</span>
+                            <span class="tech-tag">Provider</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="iot">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250/38a169/ffffff?text=Smart+Home" alt="Smart Home Automation">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/yourusername" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">IoT Solution</div>
+                        <h3 class="project-title">Smart Home Automation</h3>
+                        <p class="project-description">
+                            IoT-based home automation system using Arduino and ESP32, controllable via 
+                            mobile app with real-time monitoring and automated scheduling.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Arduino</span>
+                            <span class="tech-tag">ESP32</span>
+                            <span class="tech-tag">Flutter</span>
+                            <span class="tech-tag">Firebase</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="flutter">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250/3182ce/ffffff?text=Weather+App" alt="Weather Tracking App">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/yourusername" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">Flutter Mobile</div>
+                        <h3 class="project-title">Weather Tracking App</h3>
+                        <p class="project-description">
+                            Beautiful weather application with location-based forecasts, interactive maps, 
+                            and customizable widgets with smooth animations and modern UI design.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Flutter</span>
+                            <span class="tech-tag">API Integration</span>
+                            <span class="tech-tag">Maps</span>
+                            <span class="tech-tag">Animations</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250/1a365d/ffffff?text=Portfolio+Website" alt="Responsive Portfolio">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/yourusername" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">Web Development</div>
+                        <h3 class="project-title">Responsive Portfolio Website</h3>
+                        <p class="project-description">
+                            Modern, responsive portfolio website with advanced CSS animations, 
+                            glassmorphism effects, and optimized performance across all devices.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Responsive</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="iot">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250/38a169/ffffff?text=Sensor+Monitor" alt="Environmental Monitoring">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/yourusername" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">IoT Solution</div>
+                        <h3 class="project-title">Environmental Monitoring System</h3>
+                        <p class="project-description">
+                            Real-time environmental monitoring system with multiple sensors, data logging, 
+                            alert notifications, and cloud-based dashboard for data visualization.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Arduino</span>
+                            <span class="tech-tag">Sensors</span>
+                            <span class="tech-tag">Cloud</span>
+                            <span class="tech-tag">Data Viz</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="flutter">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250/3182ce/ffffff?text=Task+Manager" alt="Task Management App">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/yourusername" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">Flutter Mobile</div>
+                        <h3 class="project-title">Task Management App</h3>
+                        <p class="project-description">
+                            Productivity-focused task management application with team collaboration features, 
+                            progress tracking, deadline notifications, and intuitive drag-and-drop interface.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Flutter</span>
+                            <span class="tech-tag">SQLite</span>
+                            <span class="tech-tag">Notifications</span>
+                            <span class="tech-tag">Animations</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Experience & Education</h2>
+                <p class="section-subtitle">My professional journey and academic background</p>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-marker">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2021 - Present</div>
+                        <h3 class="timeline-title">Electronics & Communication Engineering</h3>
+                        <div class="timeline-company">University</div>
+                        <p class="timeline-description">
+                            Pursuing Bachelor's degree with focus on digital systems, communication protocols, 
+                            and embedded systems. Active in technology clubs and project-based learning 
+                            initiatives that bridge theoretical concepts with practical applications.
+                        </p>
+                        <div class="timeline-skills">
+                            <span class="skill-tag">Digital Systems</span>
+                            <span class="skill-tag">Communication</span>
+                            <span class="skill-tag">Embedded Systems</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="timeline-marker">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2023 (Summer)</div>
+                        <h3 class="timeline-title">Technical Intern</h3>
+                        <div class="timeline-company">BSNL (Bharat Sanchar Nigam Limited)</div>
+                        <p class="timeline-description">
+                            Gained hands-on experience in telecommunications infrastructure, network maintenance, 
+                            and customer service operations. Learned about fiber optic systems, digital switching, 
+                            and modern communication technologies essential for IoT connectivity.
+                        </p>
+                        <div class="timeline-skills">
+                            <span class="skill-tag">Telecommunications</span>
+                            <span class="skill-tag">Network Systems</span>
+                            <span class="skill-tag">Technical Support</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="400">
+                    <div class="timeline-marker">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2022 - Present</div>
+                        <h3 class="timeline-title">Flutter Development Journey</h3>
+                        <div class="timeline-company">Self-Taught & Projects</div>
+                        <p class="timeline-description">
+                            Started learning Flutter development through online courses and documentation. 
+                            Built multiple mobile applications including e-commerce apps, utility tools, 
+                            and IoT control interfaces. Continuously improving skills through practical projects.
+                        </p>
+                        <div class="timeline-skills">
+                            <span class="skill-tag">Flutter/Dart</span>
+                            <span class="skill-tag">Mobile UI/UX</span>
+                            <span class="skill-tag">Firebase</span>
+                            <span class="skill-tag">State Management</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="600">
+                    <div class="timeline-marker">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2023 - Present</div>
+                        <h3 class="timeline-title">IoT Systems Development</h3>
+                        <div class="timeline-company">Personal Projects & Learning</div>
+                        <p class="timeline-description">
+                            Expanded into IoT development by combining mobile app skills with hardware programming. 
+                            Created smart home automation systems, environmental monitoring solutions, 
+                            and sensor integration projects using Arduino and ESP32 platforms.
+                        </p>
+                        <div class="timeline-skills">
+                            <span class="skill-tag">Arduino Programming</span>
+                            <span class="skill-tag">ESP32/WiFi</span>
+                            <span class="skill-tag">Sensor Integration</span>
+                            <span class="skill-tag">Cloud Connectivity</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's collaborate on your next project</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <a href="mailto:your.email@example.com">your.email@example.com</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <a href="tel:+1234567890">+1 (234) 567-8900</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <span>India</span>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-social">
+                        <h4>Connect with me</h4>
+                        <div class="social-links">
+                            <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener" class="social-link">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://github.com/yourusername" target="_blank" rel="noopener" class="social-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://twitter.com/yourusername" target="_blank" rel="noopener" class="social-link">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="https://instagram.com/yourusername" target="_blank" rel="noopener" class="social-link">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required>
+                        <label for="name">Your Name</label>
+                        <span class="form-error" id="name-error"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required>
+                        <label for="email">Your Email</label>
+                        <span class="form-error" id="email-error"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" required>
+                        <label for="subject">Subject</label>
+                        <span class="form-error" id="subject-error"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="6" required></textarea>
+                        <label for="message">Your Message</label>
+                        <span class="form-error" id="message-error"></span>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary btn-submit">
+                        <span class="btn-text">Send Message</span>
+                        <span class="btn-loading">
+                            <i class="fas fa-spinner fa-spin"></i>
+                        </span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <div class="footer-logo">
+                        <span class="code-bracket">&lt;</span>
+                        <span>JERNISH</span>
+                        <span class="code-bracket">/&gt;</span>
+                    </div>
+                    <p>Building the future with code and creativity.</p>
+                </div>
+                
+                <div class="footer-right">
+                    <div class="footer-links">
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#skills">Skills</a>
+                        <a href="#projects">Projects</a>
+                        <a href="#experience">Experience</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 JERNISH. All rights reserved.</p>
+                <p>Made with <i class="fas fa-heart"></i> using modern web technologies</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
