@@ -2,7 +2,7 @@
 
 A cutting-edge, responsive portfolio website designed for Flutter developers and IoT engineers. Built with modern web technologies and featuring advanced animations, glassmorphism effects, and professional American-style design.
 
-![Portfolio Preview](https://jernishportfolio.netlify.app/)
+[Portfolio Preview](https://jernishportfolio.netlify.app/)
 
 ## ✨ Features
 
